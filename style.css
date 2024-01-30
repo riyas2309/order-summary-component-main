@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: #dee7ffff;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.container {
+  width: 30%;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+
+  border-radius: 2vh;
+  color: #0d2242ff;
+  align-items: center;
+  text-align: center;
+}
+.container-image {
+  width: 100%;
+  border-top-right-radius: 2vh;
+  border-top-left-radius: 2vh;
+}
+.heading {
+  padding: 3vh 0;
+}
+.paragraph {
+  padding: 0 5vh;
+  line-height: 3.5vh;
+  font-weight: 500;
+  color: #888d9eff;
+}
+.price {
+  display: flex;
+  background: #f7f8ffff;
+  width: 80%;
+  margin: 2vh 10%;
+  padding: 3vh;
+  border-radius: 2vh;
+  align-items: center;
+  line-height: 3.5vh;
+}
+.inner h3,
+p {
+  margin-left: 3.5vh;
+}
+.inner p {
+  color: #8b8fa3ff;
+}
+.price a {
+  margin-left: 8vh;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.payment-btn {
+  background: #3400deff;
+  width: 80%;
+  padding: 2vh;
+  border-radius: 2vh;
+  margin: 4.5vh 10%;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1vh;
+  cursor: pointer;
+}
+.cancel-order {
+  text-align: center;
+  width: 80%;
+  margin: 4.5vh 10%;
+  font-weight: 600;
+  color: #7e889cff;
+}
